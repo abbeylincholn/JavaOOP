@@ -9,7 +9,7 @@ import org.example.Politico.President;
 public class Main {
     public static void main(String[] args) {
         Governor sanwoOlu = new Governor("Sanwo Olu", Party.APC, 55,"Lagos", 50);
-        President tinubu = new President("jagabam", Party.PDP, 70, "Nigeria", 37);
+        President tinubu = new President("jagabam", Party.SPD, 70, "Nigeria", 37);
 
         System.out.println(sanwoOlu);
         System.out.println(tinubu);
