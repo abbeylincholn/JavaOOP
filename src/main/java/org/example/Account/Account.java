@@ -14,6 +14,10 @@ public class Account {
         }else {
             this.balance=initialBalance;
         }
+
+        System.out.println("Account Holder Name: "+ this.accountHolderName);
+        System.out.println("Account Number: "+ this.accountNumber);
+        System.out.println("Account Balance: "+ this.balance);
     }
 
     public void deposit(double amount){
@@ -23,6 +27,10 @@ public class Account {
         } else {
             System.out.println("Invalid Amount - Amount must be greater than zero");
         }
+
+        System.out.println("Account Holder Name: "+ this.accountHolderName);
+        System.out.println("Account Number: "+ this.accountNumber);
+        System.out.println("Account Balance: "+ this.balance);
 
     }
 
@@ -36,6 +44,10 @@ public class Account {
         } else {
             System.out.println("Invalid Amount - Amount must be greater than zero");
         }
+
+        System.out.println("Account Holder Name: "+ this.accountHolderName);
+        System.out.println("Account Number: "+ this.accountNumber);
+        System.out.println("Account Balance: "+ this.balance);
 
     }
 
