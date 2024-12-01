@@ -12,7 +12,7 @@ public class Main {
         Governor adeleke = new Governor("Adeleke", Party.PDP, 50,"Osun", 40);
         President tinubu = new President("jagabam", Party.SPD, 70, "Nigeria", 37);
 
-        System.out.println(sanwoOlu);
+
         System.out.println(adeleke);
         System.out.println(tinubu);
 
