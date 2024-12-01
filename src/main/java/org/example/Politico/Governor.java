@@ -20,5 +20,9 @@ public class Governor extends Politico {
                 ", party='" + party + '\'' +
                 ", age=" + age +
                 '}';
+
     }
+
+
+
 }
